@@ -9,6 +9,7 @@ git clone https://github.com/manorossa078-dev/keys.git
 
 Setup:
 ```bash
+cd keys/
 make
 ```
 ![](assets/setup.png)
