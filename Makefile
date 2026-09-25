@@ -4,7 +4,7 @@ NAME = keys
 VERSION = 0.0.1
 ARCHIVE = $(NAME)-$(VERSION).tar.gz
 
-.PHONY: install compress clean cleanfile
+.PHONY: install compress clean cleanfiles
 .DEFAULT_GOAL := install
 
 install: $(ARCHIVE)
@@ -16,5 +16,5 @@ compress:
 clean:
 	rm -rf $(ARCHIVE)
 
-cleanfile:
+cleanfiles:
 	rm keys
