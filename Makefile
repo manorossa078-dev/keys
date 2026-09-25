@@ -11,10 +11,10 @@ install: $(ARCHIVE)
 	tar xzf $(ARCHIVE)
 
 compress:
-	tar czf $(ARCHIVE) keys
+	tar czf $(ARCHIVE) keys sourceCode/ requirements.txt
 
 clean:
 	rm -rf $(ARCHIVE)
 
 cleanfiles:
-	rm keys
+	rm -rf keys requirements.txt sourceCode/
